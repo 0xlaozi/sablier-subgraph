@@ -288,5 +288,95 @@ export function addToken(address: string): void {
     token.symbol = "DAI";
   }
 
+  /* xDAI */
+  if (address == "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d") {
+    token.decimals = 18;
+    token.name = "Wrapped XDAI";
+    token.symbol = "wxDAI";
+  } else if (address == "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1") {
+    token.decimals = 18;
+    token.name = "Wrapped ETH";
+    token.symbol = "WETH";
+  } else if (address == "0x44fA8E6f47987339850636F88629646662444217") {
+    token.decimals = 18;
+    token.name = "Dai Stablecoin";
+    token.symbol = "DAI";
+  } else if (address == "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83") {
+    token.decimals = 18;
+    token.name = "USDC";
+    token.symbol = "USDC";
+  } else if (address == "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2") {
+    token.decimals = 18;
+    token.name = "Chainlink";
+    token.symbol = "LINK";
+  } else if (address == "0x5fd896D248fbfa54d26855C267859eb1b4DAEe72") {
+    token.decimals = 18;
+    token.name = "Maker";
+    token.symbol = "MKR";
+  } else if (address == "0xb7D311E2Eb55F2f68a9440da38e7989210b9A05e") {
+    token.decimals = 18;
+    token.name = "Stake";
+    token.symbol = "STAKE";
+  } else if (address == "0x4ECaBa5870353805a9F068101A40E0f32ed605C6") {
+    token.decimals = 18;
+    token.name = "Tether";
+    token.symbol = "USDT";
+  } else if (address == "0x22Bd2A732b39dACe37AE7E8f50A186f3D9702e87") {
+    token.decimals = 18;
+    token.name = "yCurve";
+    token.symbol = "yCRV";
+  } else if (address == "0xbf65bfcb5da067446CeE6A706ba3Fe2fB1a9fdFd") {
+    token.decimals = 18;
+    token.name = "Yearn Finance";
+    token.symbol = "YFI";
+  } else if (address == "0xB1950Fb2C9C0CbC8553578c67dB52Aa110A93393") {
+    token.decimals = 18;
+    token.name = "Synthetix";
+    token.symbol = "sUSD";
+  } else if (address == "0x8395F7123ba3FFAD52E7414433D825931C81C879") {
+    token.decimals = 18;
+    token.name = "OmiseGo";
+    token.symbol = "OMG";
+  } else if (address == "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb") {
+    token.decimals = 18;
+    token.name = "Gnosis";
+    token.symbol = "GNO";
+  } else if (address == "0x750eCf8c11867Ce5Dbc556592c5bb1E0C6d16538") {
+    token.decimals = 18;
+    token.name = "OWL Token";
+    token.symbol = "OWL";
+  } else if (address == "0xDf6FF92bfDC1e8bE45177DC1f4845d391D3ad8fD") {
+    token.decimals = 18;
+    token.name = "Compound";
+    token.symbol = "COMP";
+  } else if (address == "0xc1b42BDb485dEb24C74f58399288d7915a726C1D") {
+    token.decimals = 18;
+    token.name = "EthLend (Aave)";
+    token.symbol = "LEND";
+  } else if (address == "0x7838796B6802B18D7Ef58fc8B757705D6c9d12b3") {
+    token.decimals = 18;
+    token.name = "Decentraland";
+    token.symbol = "MANA";
+  } else if (address == "0x985e144EB355273c4B4D51E448B68b657F482E26") {
+    token.decimals = 18;
+    token.name = "POA20";
+    token.symbol = "POA20";
+  } else if (address == "0xc439E5B1DEe4f866B681E7c5E5dF140aA47fBf19") {
+    token.decimals = 18;
+    token.name = "SAI Stablecoin";
+    token.symbol = "SAI";
+  } else if (address == "0x5fE9885226677F3Eb5C9ad8aB6c421B4EA38535d") {
+    token.decimals = 18;
+    token.name = "JOON";
+    token.symbol = "JOON";
+  }
+
+  /* Local */
+  if (address == "0x0bd20370ce2d8da4e2471a90cae794cd7befc57a") {
+    token.decimals = 18;
+    token.name = "TestnetDAI";
+    token.symbol = "DAI";
+  }
+
   token.save();
 }
