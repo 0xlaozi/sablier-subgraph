@@ -353,6 +353,10 @@ export function addToken(address: string): void {
     token.decimals = 18;
     token.name = "EthLend (Aave)";
     token.symbol = "LEND";
+  } else if (address == "0x1e16aa4df73d29c029d94ceda3e3114ec191e25a") {
+    token.decimals = 18;
+    token.name = "xMOON";
+    token.symbol = "XMOON";
   } else if (address == "0x7838796b6802b18d7ef58fc8b757705d6c9d12b3") {
     token.decimals = 18;
     token.name = "Decentraland";
@@ -361,6 +365,10 @@ export function addToken(address: string): void {
     token.decimals = 18;
     token.name = "POA20";
     token.symbol = "POA20";
+  } else if (address == "0x71850b7e9ee3f13ab46d67167341e4bdc905eef9") {
+    token.decimals = 18;
+    token.name = "Honey";
+    token.symbol = "HONEY";
   } else if (address == "0xc439e5b1dee4f866b681e7c5e5df140aa47fbf19") {
     token.decimals = 18;
     token.name = "SAI Stablecoin";
