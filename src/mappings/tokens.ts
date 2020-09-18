@@ -368,7 +368,7 @@ export function addToken(address: string): void {
   } else if (address == "0x71850b7e9ee3f13ab46d67167341e4bdc905eef9") {
     token.decimals = 18;
     token.name = "Honey";
-    token.symbol = "HONEY";
+    token.symbol = "HNY";
   } else if (address == "0xc439e5b1dee4f866b681e7c5e5df140aa47fbf19") {
     token.decimals = 18;
     token.name = "SAI Stablecoin";
