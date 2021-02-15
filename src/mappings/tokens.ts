@@ -533,10 +533,306 @@ export function addToken(address: string): void {
     token.decimals = 18;
     token.name = "COLD TRUTH CASH";
     token.symbol = "COLD";
+  } else if (address == "0x270DE58F54649608D316fAa795a9941b355A2Bd0") {
+    token.decimals = 18;
+    token.name = "Freedom Reserve on xDai";
+    token.symbol = "FR";
+  } else if (address == "0xEddd81E0792E764501AaE206EB432399a0268DB5") {
+    token.decimals = 18;
+    token.name = "Trace Token on xDai";
+    token.symbol = "TRAC";
   } else if (address == "0x981fB9BA94078a2275A8fc906898ea107B9462A8") {
     token.decimals = 18;
     token.name = "Panvala pan on xDai";
     token.symbol = "PAN";
+  } else if (address == "0xEaF7B3376173DF8BC0C22Ad6126943cC8353C1Ee") {
+    token.decimals = 18;
+    token.name = "Cheemscoin";
+    token.symbol = "CHEEMS";
+  } else if (address == "0x226bCf0e417428a25012d0fA2183d37f92bCeDF6") {
+    token.decimals = 18;
+    token.name = "0x Protocol Token on xDai";
+    token.symbol = "ZRX";
+  } else if (address == "0x479e32cDFF5F216f93060700C711D1cC8E811a6B") {
+    token.decimals = 18;
+    token.name = "Trips on xDai";
+    token.symbol = "TRIPS";
+  } else if (address == "0x6A8cb6714B1EE5b471a7D2eC4302cb4f5Ff25eC2") {
+    token.decimals = 18;
+    token.name = "Energy Web Token Bridged on xDai";
+    token.symbol = "EWTB";
+  } else if (address == "0x2995D1317DcD4f0aB89f4AE60F3f020A4F17C7CE") {
+    token.decimals = 18;
+    token.name = "SushiToken on xDai";
+    token.symbol = "SUSHI";
+  } else if (address == "0x79CF2029717E2E78C8927F65F079Ab8dA21781Ee") {
+    token.decimals = 18;
+    token.name = "LUKSO Token on xDai";
+    token.symbol = "LYXe";
+  } else if (address == "0xFAdc59D012Ba3c110B08A15B7755A5cb7Cbe77D7") {
+    token.decimals = 18;
+    token.name = "Graph Token on xDai";
+    token.symbol = "GRT";
+  } else if (address == "0x699D001ef13B15335193bC5FAd6CFC6747eeE8BE") {
+    token.decimals = 9;
+    token.name = "Base Protocol on xDai";
+    token.symbol = "GRT";
+  } else if (address == "0x0aCD91f92Fe07606ab51EA97d8521E29D110fD09") {
+    token.decimals = 4;
+    token.name = "Celsius on xDai";
+    token.symbol = "CEL";
+  } else if (address == "0x1939D3431CF0E44B1d63b86e2cE489E5a341B1Bf") {
+    token.decimals = 18;
+    token.name = "Cream on xDai";
+    token.symbol = "CREAM";
+  } else if (address == "0x16AFe6E6754FA3694afD0Ce48f4Bea102Efacc17") {
+    token.decimals = 18;
+    token.name = "Testa on xDai";
+    token.symbol = "TESTA";
+  } else if (address == "0xc81c785653D97766b995D867CF91F56367742eAC") {
+    token.decimals = 18;
+    token.name = "AriesFinancial on xDai";
+    token.symbol = "AFI";
+  } else if (address == "0x417602f4fbdd471A431Ae29fB5fe0A681964C11b") {
+    token.decimals = 18;
+    token.name = "JPY Coin on xDai";
+    token.symbol = "JPYC";
+  } else if (address == "0x4bE85ACC1cd711F403dC7BdE9e6caDfC5A94744b") {
+    token.decimals = 18;
+    token.name = "Rarible on xDai";
+    token.symbol = "RARI";
+  } else if (address == "0xA2FEc95B3d3feCb39098E81f108533E1abF22CcF") {
+    token.decimals = 18;
+    token.name = "Yield on xDai";
+    token.symbol = "YLD";
+  } else if (address == "0x7eA8aF7301b763451B7FB25F8Fc2406819A7E36f") {
+    token.decimals = 18;
+    token.name = "Phala on xDai";
+    token.symbol = "PHA";
+  } else if (address == "0x4A88248BAa5b39bB4A9CAa697Fb7f8ae0C3f0ddB") {
+    token.decimals = 8;
+    token.name = "renBTC on xDai";
+    token.symbol = "renBTC";
+  } else if (address == "0xf54b47B00B6916974c73B81B7d9929a4f443DB49") {
+    token.decimals = 9;
+    token.name = "Robonomics on xDai";
+    token.symbol = "XRT";
+  } else if (address == "0xC84DD5B971521B6C9fA5E10d25E6428b19710e05") {
+    token.decimals = 9;
+    token.name = "Ampleforth on xDai";
+    token.symbol = "AMPL";
+  } else if (address == "0x7122d7661c4564b7C6Cd4878B06766489a6028A2") {
+    token.decimals = 18;
+    token.name = "Matic Token on xDai";
+    token.symbol = "MATIC";
+  } else if (address == "0x5A87eaC5642BfEd4e354Ee8738DACd298E07D1Af") {
+    token.decimals = 18;
+    token.name = "Reserve Rights on xDai";
+    token.symbol = "RSR";
+  } else if (address == "0x0dCfEd2C3041e66b2D8c4Ea39782c60355716316") {
+    token.decimals = 18;
+    token.name = "Energi on xDai";
+    token.symbol = "NRGE";
+  } else if (address == "0xD27E1ECC4748F42e052331BeA917D89bEB883fc3") {
+    token.decimals = 18;
+    token.name = "Akropolis on xDai";
+    token.symbol = "AKRO";
+  } else if (address == "0xe154A435408211AC89757B76C4FbE4Dc9ED2Ef27") {
+    token.decimals = 18;
+    token.name = "BandToken on xDai";
+    token.symbol = "BAND";
+  } else if (address == "0xC6cC63f4AA25BBD4453eB5F3a0DfE546feF9b2f3") {
+    token.decimals = 18;
+    token.name = "Basic Attention Token on xDai";
+    token.symbol = "BAT";
+  } else if (address == "0x512a2Eb0277573ae9Be0d48c782590b624048fdF") {
+    token.decimals = 8;
+    token.name = "MEME on xDai";
+    token.symbol = "MEME";
+  } else if (address == "0x51732a6fC4673d1aCca4c047F5465922716508Ad") {
+    token.decimals = 18;
+    token.name = "Ocean Token on xDai";
+    token.symbol = "OCEAN";
+  } else if (address == "0x2F0E755Efe6b58238A67DB420Ff3513Ec1fb31eF") {
+    token.decimals = 18;
+    token.name = "Rocket Pool on xDai";
+    token.symbol = "RPL";
+  } else if (address == "0x8fBEDD16904B561e30ea402F459900E9D90614af") {
+    token.decimals = 18;
+    token.name = "Unilayer on xDai";
+    token.symbol = "LAYER";
+  } else if (address == "0x1479ebFe327B62bFF255C0749a242748D3e7347a") {
+    token.decimals = 18;
+    token.name = "Darwinia Network Native Token on xDai";
+    token.symbol = "RING";
+  } else if (address == "0x7C16c63684D86BaCC52e8793B08a5a1A3cB1BA1e") {
+    token.decimals = 9;
+    token.name = "Davincij15 Token on xDai";
+    token.symbol = "DJ15";
+  } else if (address == "0x82dFe19164729949fD66Da1a37BC70dD6c4746ce") {
+    token.decimals = 18;
+    token.name = "BaoToken on xDai";
+    token.symbol = "BAO";
+  } else if (address == "0x48b1B0d077b4919b65b4E4114806dD803901E1D9") {
+    token.decimals = 18;
+    token.name = "Decentralized Insurance Protocol on xDai";
+    token.symbol = "DIP";
+  } else if (address == "0x346b2968508d32f0192cD7a60Ef3D9C39a3cF549") {
+    token.decimals = 18;
+    token.name = "HoloToken on xDai";
+    token.symbol = "HOT";
+  } else if (address == "0xB4B6f80d8E573e9867c90163BFdb00E29d92716a") {
+    token.decimals = 18;
+    token.name = "Metronome on xDai";
+    token.symbol = "MET";
+  } else if (address == "0x5bbfBfB123B72A255504BE985bd2B474e481e866") {
+    token.decimals = 18;
+    token.name = "Sora Token on xDai";
+    token.symbol = "SORA";
+  } else if (address == "0x796879025A627d34042E3eDd2E239E75ba4445e6") {
+    token.decimals = 18;
+    token.name = "Streamr DATAcoin on xDai";
+    token.symbol = "DATA";
+  } else if (address == "0x76eaFffA1873a8aCd43864B66A728bd873c5E08a") {
+    token.decimals = 8;
+    token.name = "SwissBorg Token on xDai";
+    token.symbol = "CHSB";
+  } else if (address == "0x778aa03021B0CD2b798b0b506403e070125D81C9") {
+    token.decimals = 18;
+    token.name = "BlackDragon Token on xDai";
+    token.symbol = "BDT";
+  } else if (address == "0xbDB90BDAdae84Af0b07abf4cEFcC7989F909f9bD") {
+    token.decimals = 18;
+    token.name = "bns.finance on xDai";
+    token.symbol = "BNSD";
+  } else if (address == "0xEC84A3bB48D70553C2599AC2d0Db07b2DFdF6364") {
+    token.decimals = 18;
+    token.name = "BNS Token on xDai";
+    token.symbol = "BNS";
+  } else if (address == "0x12daBe79cffC1fdE82FCd3B96DBE09FA4D8cd599") {
+    token.decimals = 18;
+    token.name = "DAOstack on xDai";
+    token.symbol = "GEN";
+  } else if (address == "0x1319067e82F0b9981F19191E1C08bb6E6e055DD3") {
+    token.decimals = 18;
+    token.name = "DeFireX DAI on xDai";
+    token.symbol = "DDAI";
+  } else if (address == "0x5A757F0BcAdFDb78651B7bDBe67e44e8Fd7F7f6b") {
+    token.decimals = 18;
+    token.name = "Enjin Coin on xDai";
+    token.symbol = "ENJ";
+  } else if (address == "0x9bD5E0ce813d5172859b0b70Ff7Bb3C325CEE913") {
+    token.decimals = 18;
+    token.name = "Ethereum Meta on xDai";
+    token.symbol = "ETHM";
+  } else if (address == "0x7DB0be7A41b5395268e065776e800e27181C81AB") {
+    token.decimals = 18;
+    token.name = "Livepeer Token on xDai";
+    token.symbol = "LPT";
+  } else if (address == "0x2bE73bFeEC620aa9B67535A4D3827bB1e29436D1") {
+    token.decimals = 18;
+    token.name = "LoopringCoin V2 on xDai";
+    token.symbol = "LRC";
+  } else if (address == "0x26dD64bdCB2FaF4F7E49A73145752e8d9cb34C94") {
+    token.decimals = 18;
+    token.name = "Pundi X Token on xDai";
+    token.symbol = "NPXS";
+  } else if (address == "0x044F6ae3aEF34fdB8FdDc7c05F9cC17F19Acd516") {
+    token.decimals = 18;
+    token.name = "Status Network Token on xDai";
+    token.symbol = "SNT";
+  } else if (address == "0xB714654e905eDad1CA1940b7790A8239ece5A9ff") {
+    token.decimals = 18;
+    token.name = "TrueUSD on xDai";
+    token.symbol = "TUSD";
+  } else if (address == "0xEAaccE3E5bCC10FB32c2553f8d6Fc4C3888ffDaD") {
+    token.decimals = 18;
+    token.name = "TrustSwap Token on xDai";
+    token.symbol = "SWAP";
+  } else if (address == "0xbcfB2B889F7bAa29Dd7A7B447b6C87Aca572F4f4") {
+    token.decimals = 18;
+    token.name = "Aave Interest bearing DAI on xDai";
+    token.symbol = "ADAI";
+  } else if (address == "0x3581cc6A09DE85e9B91Ef93F2a5eF837706b84a5") {
+    token.decimals = 18;
+    token.name = "AllianceBlock Token on xDai";
+    token.symbol = "ALBT";
+  } else if (address == "0x7eF541E2a22058048904fE5744f9c7E4C57AF717") {
+    token.decimals = 18;
+    token.name = "Balancer on xDai";
+    token.symbol = "BAL";
+  } else if (address == "0x9a495a281D959192343B0e007284bf130bd05F86") {
+    token.decimals = 18;
+    token.name = "Bancor Network Token on xDai";
+    token.symbol = "BNT";
+  } else if (address == "0x248c54B3fc3bC8b20D0CDEE059E17C67e4a3299d") {
+    token.decimals = 18;
+    token.name = "CelerToken on xDai";
+    token.symbol = "CELR";
+  } else if (address == "0xff0Ce179a303F26017019acf78B951cB743B8D9b") {
+    token.decimals = 18;
+    token.name = "Contribute on xDai";
+    token.symbol = "TRIB";
+  } else if (address == "0x60e668f54106222adC1Da80c169281B3355B8e5D") {
+    token.decimals = 9;
+    token.name = "iEx.ec Network Token on xDai";
+    token.symbol = "RLC";
+  } else if (address == "0xd361c1FD663d8f2dc36ae07FF6F3623532cAbdD3") {
+    token.decimals = 18;
+    token.name = "MCDEX Token on xDai";
+    token.symbol = "MCB";
+  } else if (address == "0x5b917D4fb9B27591353211c32F1552A527987AFC") {
+    token.decimals = 18;
+    token.name = "MoonToken on xDai";
+    token.symbol = "MOON";
+  } else if (address == "0x26DC03E492763068CCfE7C39B93A22442807C360") {
+    token.decimals = 18;
+    token.name = "Nexo on xDai";
+    token.symbol = "NEXO";
+  } else if (address == "0x37b60f4E9A31A64cCc0024dce7D0fD07eAA0F7B3") {
+    token.decimals = 18;
+    token.name = "Pinakion on xDai";
+    token.symbol = "PNK";
+  } else if (address == "0x75481A953a4bBa6B3C445907dB403E4b5D222174") {
+    token.decimals = 18;
+    token.name = "PolkastarterToken on xDai";
+    token.symbol = "POLS";
+  } else if (address == "0x53ef00be819A062533a0E699077c621a28EADEd1") {
+    token.decimals = 18;
+    token.name = "PowerTrade Fuel Token on xDai";
+    token.symbol = "PTF";
+  } else if (address == "0xBc650b9cC12dB4da14b2417c60CCd6F4d77c3998") {
+    token.decimals = 8;
+    token.name = "StorjToken on xDai";
+    token.symbol = "STORJ";
+  } else if (address == "0x8F365b41B98Fe84aCB287540b4B4AB633e07EDb2") {
+    token.decimals = 18;
+    token.name = "Synth sETH on xDai";
+    token.symbol = "SETH";
+  } else if (address == "0x0811E451447D5819976a95a02f130c3b00D59346") {
+    token.decimals = 18;
+    token.name = "tBTC on xDai";
+    token.symbol = "TBTC";
+  } else if (address == "0x020Ae8FC1c19f4d1312Cf6a72291f52849791E7C") {
+    token.decimals = 18;
+    token.name = "VectorspaceAI on xDai";
+    token.symbol = "VXV";
+  } else if (address == "0x01e92E3791f8c1D6599B2F80A4bFF9b43949aC7C") {
+    token.decimals = 18;
+    token.name = "Wrapped NXM on xDai";
+    token.symbol = "wNXM";
+  } else if (address == "0x0116e28B43A358162B96f70B4De14C98A4465f25") {
+    token.decimals = 18;
+    token.name = "UniCrypt on xDai";
+    token.symbol = "UNCX";
+  } else if (address == "0xB2aE7983A8142401d45546aAb981e5fbff520991") {
+    token.decimals = 18;
+    token.name = "BTCCB";
+    token.symbol = "BTCCB";
+  } else if (address == "0xf1738912ae7439475712520797583ac784ea9033") {
+    token.decimals = 18;
+    token.name = "XionGlobal Token";
+    token.symbol = "XGT";
   }
 
   /* Local */
